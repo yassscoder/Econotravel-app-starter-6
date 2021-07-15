@@ -1,9 +1,57 @@
-.hello-sign {
-  width: 200px;
-  font-size: larger;
-  border-radius: 7px;
-  border: thin black solid;
+#app {
+  background-image: url("https://images.unsplash.com/photo-1563169372-eb64c121f9dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=661&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 20%;
+}
+
+.fruitsList {
+  border: thin solid #444444;
+  width: 300px;
   margin: auto;
-  padding: 10px;
+  border-radius: 12px;
+  background-color: whitesmoke;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  &__item {
+    box-shadow: #444444 1px 1px;
+    border: thin solid black;
+  }
+}
+
+.fruit {
+
+  height: 120px;
+  position: relative;
   text-align: center;
+
+  &__name {
+    padding: 20%;
+  }
+
+  &__details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+
+  }
+  &:hover &__details {
+    width: 100%;
+  }
 }
