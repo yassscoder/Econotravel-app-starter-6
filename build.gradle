@@ -2,6 +2,7 @@ plugins {
     id 'org.springframework.boot' version '2.5.2'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
+    id "com.github.node-gradle.node" version "3.1.0"
 }
 
 group = 'net.econotravel'
@@ -22,3 +23,30 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+task installFrontendDependencies(type: NpmTask) {
+    workingDir = file('./web-client')
+    args = ['install']
+}
+
+task compileWebClient(type: NpmTask) {
+    dependsOn("installFrontendDependencies")
+    workingDir = file('./web-client')
+    args = ['run', 'build']
+}
+
+task copyFiles(type: Copy) {
+    dependsOn("compileWebClient")
+    from('./web-client/build')
+    include("*.html")
+    include("*.js")
+    into("./src/main/resources/static")
+}
+
+
+task buildFrontend(dependsOn: [
+        'compileWebClient',
+        'copyFiles'
+])
+
+build.dependsOn buildFrontend

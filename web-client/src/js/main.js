@@ -2,9 +2,9 @@ import '../scss/main.scss'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import {Hello} from './components/Hello'
+import {FruitList} from './components/FruitList'
 
 ReactDOM.render(
-    React.createElement(Hello),
+    React.createElement(FruitList),
     document.getElementById("app")
 )
