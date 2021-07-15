@@ -1,5 +1,5 @@
 {
-  "name": "econotravel-web-client",
+  "name": "fruitstore-web-client",
   "scripts": {
     "build": "webpack --mode=production",
     "develop": "webpack server --mode development --config webpack.config.js --content-base build/"
