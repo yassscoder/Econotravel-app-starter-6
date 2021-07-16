@@ -54,4 +54,6 @@ npm run develop
 Una vez arrancada la aplicación, puede accederse al panel de configuración
 de H2 disponible en `/h2-ui`
 
+![panel de h2](doc/images/h2-ui.png)
+
 
