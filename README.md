@@ -49,3 +49,9 @@ el frontend, es posible usar **webpack dev server**, haciendo:
 npm run develop
 ```
 
+### H2 Database
+
+Una vez arrancada la aplicación, puede accederse al panel de configuración
+de H2 disponible en `/h2-ui`
+
+

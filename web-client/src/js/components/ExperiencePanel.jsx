@@ -21,7 +21,7 @@ export const ExperiencePanel = () => {
             {experiences.map((experience) =>
                 <div className={"experiencesList__item experience"}>
                     <div className={"experience__name"}> {experience.name} </div>
-                    <div className={"experience__details"}> {experience.price + " €" } </div>
+                    <div className={"experience__details"}> {experience.pricePerPerson + " €" } </div>
                 </div>
             )}
         </div>
