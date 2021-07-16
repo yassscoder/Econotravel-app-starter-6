@@ -1,6 +1,10 @@
-#Fruit Store app
+#Econotravel App
 
-Esta aplicación es un ejemplo de cómo usar Spring Boot y React. 
+[Descripción completa del proyecto en Simplonline](https://simplonline.co/briefs/c051e298-4819-4197-a53c-c5ea55a53bab)
+
+![icono-econotravel](doc/images/logo.png)
+
+Esta plantilla incluye parte del Backend para desarrollar este proyecto y las herramientas para compilar el frontend tal y como se ha explicado en clase.
 
 ### Estructura
 

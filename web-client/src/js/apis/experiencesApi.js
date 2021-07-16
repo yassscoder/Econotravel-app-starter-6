@@ -1,8 +1,8 @@
-export class FruitApi {
+export class ExperienceApi {
 
     // hace una llamada al backend y convierte el resultado en un JSON
-    getFruits() {
-        return fetch("/fruits")
+    getExperiences() {
+        return fetch("/experiences")
             .then(response => response.json())
     }
 }

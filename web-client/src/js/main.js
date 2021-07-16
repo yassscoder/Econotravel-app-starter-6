@@ -5,9 +5,9 @@ import '../scss/main.scss'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import {FruitList} from './components/FruitList'
+import {ExperiencePanel} from './components/ExperiencePanel'
 
 ReactDOM.render(
-    React.createElement(FruitList),
+    React.createElement(ExperiencePanel),
     document.getElementById("app")
 )
