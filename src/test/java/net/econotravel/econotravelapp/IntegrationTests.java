@@ -42,8 +42,8 @@ public class IntegrationTests {
 
     private void loadFakeData() {
         List<Experience> experienceList = List.of(
-                new Experience(1L, "Paseo en bicicleta por el Montseny", BigDecimal.valueOf(13.29)),
-                new Experience(2L, "De la huerta a la cocina", BigDecimal.valueOf(7.20))
+                new Experience("Paseo en bicicleta por el Montseny", BigDecimal.valueOf(13.29)),
+                new Experience("De la huerta a la cocina", BigDecimal.valueOf(7.20))
         );
         fakeExperienceRepository.saveAll(experienceList);
     }

@@ -5,7 +5,7 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name="experiences")
+@Table(name = "experiences")
 public class Experience implements Serializable {
 
     @Id
@@ -14,8 +14,7 @@ public class Experience implements Serializable {
     private String name;
     private BigDecimal pricePerPerson;
 
-    public Experience(Long id, String name, BigDecimal pricePerPerson) {
-        this.id = id;
+    public Experience(String name, BigDecimal pricePerPerson) {
         this.name = name;
         this.pricePerPerson = pricePerPerson;
     }
