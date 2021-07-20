@@ -1,7 +1,37 @@
-#app {
-  height: 100vh;
-  padding: 20%;
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Nunito Sans', sans-serif;
 }
+
+.navigationBar{
+  display:flex;
+  align-items: center;
+  height:10.5rem;
+  width:100%;
+  background-color: #03A062;
+}
+
+.navigationBar a {
+  text-decoration: none;
+  padding: 15px;
+  color:white;
+  font-size: 2rem;
+}
+.navigationBar prueba {
+
+    background-color: #FDE724;
+    border-radius: 8%;
+    padding: 10px;
+  }
+
+
+
+
+
+
+
+
 
 .experiencesList {
   border: thin solid #444444;
