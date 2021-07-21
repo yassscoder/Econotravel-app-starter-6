@@ -36,6 +36,19 @@ module.exports = {
                 }
             },
             {
+                test: /\.(png|jpe?g|gif)$/i,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            // publicPath: 'build'
+                        }
+
+
+                    },
+                ],
+            },
+            {
                 test: /\.scss$/,
                 use: [
                     "style-loader",
@@ -45,6 +58,8 @@ module.exports = {
             }
         ]
     },
+
+
     plugins: [
         new HtmlWebpackPlugin({
             template: 'src/index.html'
