@@ -7,16 +7,23 @@ body{
 .navigationBar{
   display:flex;
   align-items: center;
+  justify-content: space-around;
   height:10.5rem;
   width:100%;
   background-color: #03A062;
 }
-
+.containerSearchBar {
+  display: flex;
+  gap: 5px;
+}
 .navigationBar a {
   text-decoration: none;
   padding: 15px;
   color:white;
   font-size: 2rem;
+}
+.navigationBar input {
+  height: 30px;
 }
 .btn-reservas {
 

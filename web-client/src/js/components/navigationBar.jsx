@@ -10,11 +10,12 @@ export const NavigationBar = () => (
         <Link to={"/quienessomos"}>Quiénes Somos</Link>
 
         <img className={"logo-eco"} src={logo} />
-        <Link className={"btn-reservas"} to={"/reservas"} >Reservas</Link>
-        <label htmlFor={"search"}></label>
-        <input type={"text"} placeholder={"Busca tu experiencia"} />
-        <input type={"submit"} value="Buscar"/>
-
+            <div className={"containerSearchBar"}>
+                <label htmlFor={"search"}></label>
+                <input type={"text"} placeholder={"Busca tu experiencia"} />
+                <input type={"submit"} value="Buscar"/>
+            </div>
+            <Link className={"btn-reservas"} to={"/reservas"} >Reservas</Link>
 
     </nav>
 )
