@@ -8,8 +8,12 @@ export const NavigationBar = () => (
     <nav className={"navigationBar"}>
         <Link to={"/experiencias"}>Experiencias</Link>
         <Link to={"/quienessomos"}>Quiénes Somos</Link>
-        <Link className={"prueba"} to={"/reservas"} >Reservas</Link>
+
         <img className={"logo-eco"} src={logo} />
+        <Link className={"btn-reservas"} to={"/reservas"} >Reservas</Link>
+        <label htmlFor={"search"}></label>
+        <input type={"text"} placeholder={"Busca tu experiencia"} />
+        <input type={"submit"} value="Buscar"/>
 
 
     </nav>
