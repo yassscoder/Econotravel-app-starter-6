@@ -4,12 +4,16 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import {Experiencias} from "./experiencias";
 import {Reservas} from "./reservas";
 import {QuienesSomos} from "./quienesSomos";
+import {Home} from "./home";
 
 export const App = () => {
 
      return <Router>
                     <NavigationBar/>
                          <Switch>
+                             <Route exact path="/">
+                                 <Home />
+                             </Route>
                                 <Route path="/experiencias">
                                     <Experiencias />
                                 </Route>
@@ -20,6 +24,7 @@ export const App = () => {
                                      <Reservas />
                                  </Route>
                          </Switch>
+
             </Router>
 
 }
