@@ -15,6 +15,7 @@ body{
 .containerSearchBar {
   display: flex;
   gap: 5px;
+  vertical-align: bottom;
 }
 .navigationBar a {
   text-decoration: none;
@@ -35,7 +36,9 @@ body{
 .logo-eco{
   height: 9rem;
 }
-
+.lupa {
+  height: 30px;
+}
 
 
 

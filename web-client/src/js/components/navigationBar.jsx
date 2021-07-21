@@ -1,7 +1,7 @@
 import * as React from "react";
 import {Link} from "react-router-dom";
 import logo from './assets/logo-eco-1.png';
-
+import lupa from './assets/lupa.png';
 
 
 export const NavigationBar = () => (
@@ -14,6 +14,7 @@ export const NavigationBar = () => (
                 <label htmlFor={"search"}></label>
                 <input type={"text"} placeholder={"Busca tu experiencia"} />
                 <input type={"submit"} value="Buscar"/>
+                <img className={"lupa"} src={lupa} />
             </div>
             <Link className={"btn-reservas"} to={"/reservas"} >Reservas</Link>
 
