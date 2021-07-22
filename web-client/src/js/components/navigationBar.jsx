@@ -1,6 +1,6 @@
 import * as React from "react";
 import {Link} from "react-router-dom";
-import logo from './assets/logo-negativo.jpg';
+import logo from './assets/logo-center.png';
 import lupa from './assets/lupa.png';
 
 
