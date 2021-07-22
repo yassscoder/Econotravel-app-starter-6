@@ -2,7 +2,7 @@ import * as React from "react";
 import montsenybici from './assets/montsenybici.jpg';
 
 
-export const Experiencias = () =>
+export const ExperienciaMontseny = () =>
 
 <section className="containerexperiencias">
         <header className={"cabeceraexperiencias"}>
