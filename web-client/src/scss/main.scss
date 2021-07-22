@@ -8,39 +8,61 @@ body{
   display:flex;
   align-items: center;
   justify-content: space-around;
-  height:10.5rem;
+  height:6.5rem;
   width:100%;
   background-color: #03A062;
 }
+.containerExpWho {
+  display: flex;
+ gap: 20px;
+}
+
 .containerSearchBar {
   display: flex;
-  gap: 5px;
-  vertical-align: bottom;
+
+
 }
-.navigationBar a {
+.exp-who {
   text-decoration: none;
   padding: 15px;
   color:white;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 .navigationBar input {
-  height: 30px;
+  height: 2rem;
+  width:14rem;
+  border:none;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius:0.3rem ;
 }
 .btn-reservas {
-
-    background-color: #FDE724;
-    border-radius: 8%;
-    padding: 10px;
-  }
+  background-color: #FDE724;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
 
 .logo-eco{
   height: 9rem;
 }
 .lupa {
   height: 30px;
-
+  filter:invert(1);
 }
-
+.fa-search {
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+}
+.btn-search {
+  border: none;
+  background-color: #006c79;
+  width: 3rem;
+  border-bottom-right-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
 
 
 
