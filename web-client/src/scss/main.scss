@@ -78,6 +78,58 @@ body{
   flex-direction: column;
 }
 
+
+
+
+
+
+/*Quienes somos*/
+
+.container-banner-img{
+  height:300px;
+  width:100%;
+}
+
+.imgPrincipalAbout{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.team-info {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+.info-individual{
+  width:250px;
+}
+.container-profile-pic img {
+  object-fit: cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 1rem;
+  border:5px solid #fde724;
+}
+.team-name {
+  margin-top: 2rem;
+  font-weight: bold;
+
+}
+.job{
+  font-size: 1.1rem;
+
+}
+.description-member{
+  font-size:1rem;
+  font-style:italic;
+  font-weight: lighter;
+}
+
+
+
 .experiencesList {
   border: thin solid #444444;
   width: 300px;
