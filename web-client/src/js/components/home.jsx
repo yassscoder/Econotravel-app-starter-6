@@ -1,14 +1,18 @@
 import * as React from "react";
 import Carousel from 'react-bootstrap/Carousel'
-import image from './assets/sliderimg01.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import montseny from './assets/montseny.JPG';
+import vela from './assets/vela.jpg';
+import batllo from './assets/casa-batllo.png';
+import huerto from './assets/huerto.jpg';
+import montserrat from './assets/montserrat.jpg';
 
 export const Home = () => (
     <Carousel>
         <Carousel.Item>
             <img
                 className="d-block w-100"
-                src={image}
+                src={montseny}
                 alt="First slide"
             />
             <Carousel.Caption>
@@ -19,7 +23,7 @@ export const Home = () => (
         <Carousel.Item>
             <img
                 className="d-block w-100"
-                src={image}
+                src={vela}
                 alt="Second slide"
             />
 
@@ -31,7 +35,31 @@ export const Home = () => (
         <Carousel.Item>
             <img
                 className="d-block w-100"
-                src={image}
+                src={batllo}
+                alt="Third slide"
+            />
+
+            <Carousel.Caption>
+                <h3>Third slide label</h3>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+            <img
+                className="d-block w-100"
+                src={huerto}
+                alt="Third slide"
+            />
+
+            <Carousel.Caption>
+                <h3>Third slide label</h3>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+            <img
+                className="d-block w-100"
+                src={montserrat}
                 alt="Third slide"
             />
 
