@@ -69,4 +69,5 @@ export const Home = () => (
             </Carousel.Caption>
         </Carousel.Item>
     </Carousel>
+
 )

@@ -130,52 +130,89 @@ body{
 
 
 
-.experiencesList {
-  border: thin solid #444444;
-  width: 300px;
-  margin: auto;
-  border-radius: 12px;
-  background-color: whitesmoke;
+/*experiencias cards*/
 
-  &__title {
-    text-align: center;
-  }
-
-  &__list {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-  }
-
-  &__item {
-    box-shadow: #444444 1px 1px;
-    border: thin solid black;
-  }
+.card {
+  background-color: white;
+  color: #272727;
+  padding: 20px;
+  border-radius: 10px;
+  border: 0px;
+  border-color: tomato;
+  border-style: solid;
+  transition: 200ms;
+  max-width: 380px;
 }
 
-.experience {
+.card:hover {
+  transition: 200ms;
+  border: 3px;
+  border-color: tomato;
+  border-style: solid;
+}
 
-  height: 120px;
-  position: relative;
+.card-header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+
+}
+
+.profile {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: tomato;
+  border-radius: 50%;
+  margin: 10px;
+  font-size: 20pt;
   text-align: center;
+  font-weight: bold;
+  color: white;
+  justify-content: center;
+}
 
-  &__name {
-    padding: 20%;
-  }
+.letter {
+  vertical-align: middle;
+}
 
-  &__details {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #008CBA;
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .5s ease;
+.card-title-group {
+  justify-content: center;
+}
 
-  }
-  &:hover &__details {
-    width: 100%;
-  }
+.card-title {
+  flex: 0.5;
+  font-size: large;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.card-date {
+  flex: 0.3;
+  font-size: small;
+  margin-top: 0;
+}
+
+.card-image {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.card-like-icon {
+  height: 25px;
+}
+
+.card-text {
+  width: 350px;
+  font-size: medium;
+}
+
+.card-like-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.like-text {
+  font-size: small;
+  margin-left: 10px;
 }
