@@ -2,25 +2,34 @@ import * as React from "react";
 import card01 from "./assets/card01.jpg";
 import card02 from "./assets/card02.jpg";
 import card03 from "./assets/card03.jpg";
+import card04 from "./assets/card04.jpg";
+import card05 from "./assets/card05.jpg";
+import card06 from "./assets/card06.jpg";
+import {Link} from "react-router-dom";
 
 export const Experiencias = () => <section className={"container-cards"}>
-
+    <section className="tituloexp">
+        <h1> Descubre nuestras experiencias únicas</h1>
+        <h2> Turismo responsable km0</h2>
+    </section>
     <div className="card">
         <div className="card-header">
             <div className="profile">
-                <span className="letter">Hola</span>
+                <span className="letter">Mountain</span>
             </div>
             <div className="card-title-group">
-                <h5 className="card-title">Hola</h5>
-                <div className="card-date">Hola</div>
+                <h5 className="card-title">Montserrat</h5>
+                <div className="card-date">Arte en la montaña sagrada </div>
             </div>
         </div>
         <img className="card-image" src={card01} alt="Logo" />
-        <div className="card-text">Hola</div>
+        <div className="card-text">Disfruta de la impresionante Montaña de Montserrat donde encontraréis
+            el Museo con las salas modernistas de Puig i Cadafalch, lugar que acoge colecciones de gran
+            valor en el corazón de la emblemática montaña.</div>
         <div className="card-like-bar">
 
             <div className="like-text">
-                <b>Hola</b> kişi bu tarifi beğendi.
+                <Link className={"btn-reservas2"} to={"/reservas"} >Descubre +</Link>
             </div>
         </div>
     </div>
@@ -28,19 +37,21 @@ export const Experiencias = () => <section className={"container-cards"}>
     <div className="card">
         <div className="card-header">
             <div className="profile">
-                <span className="letter">Hola</span>
+                <span className="letter">Mountain</span>
             </div>
             <div className="card-title-group">
-                <h5 className="card-title">Hola</h5>
-                <div className="card-date">Hola</div>
+                <h5 className="card-title">Montseny</h5>
+                <div className="card-date">Paseo en BTT</div>
             </div>
         </div>
         <img className="card-image" src={card02} alt="Logo" />
-        <div className="card-text">Hola</div>
+        <div className="card-text">Disfruta de un hermoso paseo en bicicleta por el increíble
+            Parque Natural del Montseny. Una escapada veraniega perfecta para parejas, familias
+            y amigos que nos permitirá conocer nuevos y sorprendentes lugares</div>
         <div className="card-like-bar">
 
             <div className="like-text">
-                <b>Hola</b> kişi bu tarifi beğendi.
+                <Link className={"btn-reservas2"} to={"/reservas"} >Descubre +</Link>
             </div>
         </div>
     </div>
@@ -48,19 +59,21 @@ export const Experiencias = () => <section className={"container-cards"}>
     <div className="card">
         <div className="card-header">
             <div className="profile">
-                <span className="letter">Hola</span>
+                <span className="letter">Playa</span>
             </div>
             <div className="card-title-group">
-                <h5 className="card-title">Hola</h5>
-                <div className="card-date">Hola</div>
+                <h5 className="card-title">Velero</h5>
+                <div className="card-date">Descubre la costa en barco de vela</div>
             </div>
         </div>
         <img className="card-image" src={card03} alt="Logo" />
-        <div className="card-text">Hola</div>
+        <div className="card-text">Disfruta de un hermoso paseo acuático en barco de vela por
+            la increíble costa de Barcelona. Una escapada veraniega apta incluso para los días
+            más calurosos del año.</div>
         <div className="card-like-bar">
 
             <div className="like-text">
-                <b>Hola</b> kişi bu tarifi beğendi.
+                <Link className={"btn-reservas2"} to={"/reservas"} >Descubre +</Link>
             </div>
         </div>
     </div>
@@ -68,19 +81,21 @@ export const Experiencias = () => <section className={"container-cards"}>
     <div className="card">
         <div className="card-header">
             <div className="profile">
-                <span className="letter">Hola</span>
+                <span className="letter">Ciudad</span>
             </div>
             <div className="card-title-group">
-                <h5 className="card-title">Hola</h5>
-                <div className="card-date">Hola</div>
+                <h5 className="card-title">Barcelona</h5>
+                <div className="card-date">BCN Modernista de noche</div>
             </div>
         </div>
-        <img className="card-image" src={card01} alt="Logo" />
-        <div className="card-text">Hola</div>
+        <img className="card-image" src={card04} alt="Logo" />
+        <div className="card-text">Desplazarse a pie es una de las mejores formas de descubrir
+            las maravillas modernistas que se esconden en el barcelonés distrito del Eixample,
+            ubicado en el centro de la ciudad. </div>
         <div className="card-like-bar">
 
             <div className="like-text">
-                <b>Hola</b> kişi bu tarifi beğendi.
+                <Link className={"btn-reservas2"} to={"/reservas"} >Descubre +</Link>
             </div>
         </div>
     </div>
@@ -88,19 +103,21 @@ export const Experiencias = () => <section className={"container-cards"}>
     <div className="card">
         <div className="card-header">
             <div className="profile">
-                <span className="letter">Hola</span>
+                <span className="letter">City</span>
             </div>
             <div className="card-title-group">
-                <h5 className="card-title">Hola</h5>
-                <div className="card-date">Hola</div>
+                <h5 className="card-title">Horticultura</h5>
+                <div className="card-date">Del huerto a la mesa</div>
             </div>
         </div>
-        <img className="card-image" src={card01} alt="Logo" />
-        <div className="card-text">Hola</div>
+        <img className="card-image" src={card05} alt="Logo" />
+        <div className="card-text">Comparte con los más pequeños las maravillas de la naturaleza.
+            En esta excursión breve de tres horas, podréis plantar vuestras propias hortalizas y
+            verduras en el huerto de Can Gilabert, ubicado en el corazón del Montbaig.</div>
         <div className="card-like-bar">
 
             <div className="like-text">
-                <b>Hola</b> kişi bu tarifi beğendi.
+                <Link className={"btn-reservas2"} to={"/reservas"} >Descubre +</Link>
             </div>
         </div>
     </div>
@@ -108,19 +125,22 @@ export const Experiencias = () => <section className={"container-cards"}>
     <div className="card">
         <div className="card-header">
             <div className="profile">
-                <span className="letter">Hola</span>
+                <span className="letter">Ciudad</span>
             </div>
             <div className="card-title-group">
-                <h5 className="card-title">Hola</h5>
-                <div className="card-date">Hola</div>
+                <h5 className="card-title">Colonia Güell</h5>
+                <div className="card-date">Una joya a 5 minutos de BCN</div>
             </div>
         </div>
-        <img className="card-image" src={card01} alt="Logo" />
-        <div className="card-text">Hola</div>
+        <img className="card-image" src={card06} alt="Logo" />
+        <div className="card-text">Visita los tres espacios de la Colonia Güell:
+            la Cripta de Gaudí, declarada Patrimonio de la Humanidad por la UNESCO en 2005,
+            la Colonia Güell y la exposición permanente,
+            ubicada en la antigua cooperativa de la Colonia, inaugurada en el año 2008.</div>
         <div className="card-like-bar">
 
             <div className="like-text">
-                <b>Hola</b> kişi bu tarifi beğendi.
+                <Link className={"btn-reservas2"} to={"/reservas"} >Descubre +</Link>
             </div>
         </div>
     </div>
