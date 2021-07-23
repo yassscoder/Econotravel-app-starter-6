@@ -1,5 +1,7 @@
 import * as React from "react";
-import montseny from "./assets/montseny.jpg";
+import card01 from "./assets/card01.jpg";
+import card02 from "./assets/card02.jpg";
+import card03 from "./assets/card03.jpg";
 
 export const Experiencias = () => <section className={"container-cards"}>
 
@@ -13,7 +15,7 @@ export const Experiencias = () => <section className={"container-cards"}>
                 <div className="card-date">Hola</div>
             </div>
         </div>
-        <img className="card-image" src={montseny} alt="Logo" />
+        <img className="card-image" src={card01} alt="Logo" />
         <div className="card-text">Hola</div>
         <div className="card-like-bar">
 
@@ -33,7 +35,7 @@ export const Experiencias = () => <section className={"container-cards"}>
                 <div className="card-date">Hola</div>
             </div>
         </div>
-        <img className="card-image" src={montseny} alt="Logo" />
+        <img className="card-image" src={card02} alt="Logo" />
         <div className="card-text">Hola</div>
         <div className="card-like-bar">
 
@@ -53,7 +55,7 @@ export const Experiencias = () => <section className={"container-cards"}>
                 <div className="card-date">Hola</div>
             </div>
         </div>
-        <img className="card-image" src={montseny} alt="Logo" />
+        <img className="card-image" src={card03} alt="Logo" />
         <div className="card-text">Hola</div>
         <div className="card-like-bar">
 
@@ -73,7 +75,7 @@ export const Experiencias = () => <section className={"container-cards"}>
                 <div className="card-date">Hola</div>
             </div>
         </div>
-        <img className="card-image" src={montseny} alt="Logo" />
+        <img className="card-image" src={card01} alt="Logo" />
         <div className="card-text">Hola</div>
         <div className="card-like-bar">
 
@@ -93,7 +95,7 @@ export const Experiencias = () => <section className={"container-cards"}>
                 <div className="card-date">Hola</div>
             </div>
         </div>
-        <img className="card-image" src={montseny} alt="Logo" />
+        <img className="card-image" src={card01} alt="Logo" />
         <div className="card-text">Hola</div>
         <div className="card-like-bar">
 
@@ -113,7 +115,7 @@ export const Experiencias = () => <section className={"container-cards"}>
                 <div className="card-date">Hola</div>
             </div>
         </div>
-        <img className="card-image" src={montseny} alt="Logo" />
+        <img className="card-image" src={card01} alt="Logo" />
         <div className="card-text">Hola</div>
         <div className="card-like-bar">
 
