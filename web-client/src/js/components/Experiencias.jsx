@@ -1,7 +1,7 @@
 import * as React from "react";
 import montseny from "./assets/montseny.jpg";
 
-export const Experiencias = () => <section>
+export const Experiencias = () => <section className={"container-cards"}>
 
     <div className="card">
         <div className="card-header">

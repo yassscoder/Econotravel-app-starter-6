@@ -131,7 +131,13 @@ body{
 
 
 /*experiencias cards*/
-
+.container-cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 3rem 2rem;
+  justify-content: center;
+}
 .card {
   background-color: white;
   color: #272727;
