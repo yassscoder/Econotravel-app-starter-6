@@ -16,11 +16,7 @@ export const Experiencias = () => <section>
         <img className="card-image" src={montseny} alt="Logo" />
         <div className="card-text">Hola</div>
         <div className="card-like-bar">
-            {/*git{props.liked ? (*/}
-            {/*    <img className="card-like-icon" src={heartFill} alt="Logo" />*/}
-            {/*) : (*/}
-            {/*    <img className="card-like-icon" src={heartOutline} alt="Logo" />*/}
-            {/*)}}
+
             <div className="like-text">
                 <b>Hola</b> kişi bu tarifi beğendi.
             </div>
@@ -30,3 +26,5 @@ export const Experiencias = () => <section>
 
 
 </section>
+
+
