@@ -131,6 +131,23 @@ body{
 
 
 /*experiencias cards*/
+.containerPageExperiences{
+     display: flex;
+     flex-direction: column;
+}
+/*.tituloexp {
+  display: block;
+  margin:auto;
+}*/
+.tituloexp {
+  /* display: block; */
+  /* margin: auto; */
+  min-height: 11rem;
+  justify-content: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
 .container-cards{
   display: flex;
   flex-wrap: wrap;
@@ -233,9 +250,5 @@ body{
   font-size: 1rem;
 }
 
-.tituloexp {
-  display: block;
-  margin-left: auto;
-  margin-right: auto
-}
+
 

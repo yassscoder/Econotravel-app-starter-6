@@ -7,11 +7,12 @@ import card05 from "./assets/card05.jpg";
 import card06 from "./assets/card06.jpg";
 import {Link} from "react-router-dom";
 
-export const Experiencias = () => <section className={"container-cards"}>
+export const Experiencias = () => <section className={"containerPageExperiences"}>
     <section className="tituloexp">
         <h1> Descubre nuestras experiencias únicas</h1>
         <h2> Turismo responsable km0</h2>
     </section>
+    <section className={"container-cards"}>
     <div className="card">
         <div className="card-header">
             <div className="profile">
@@ -144,7 +145,8 @@ export const Experiencias = () => <section className={"container-cards"}>
             </div>
         </div>
     </div>
-    );
+
+    </section>
 
 
 </section>
