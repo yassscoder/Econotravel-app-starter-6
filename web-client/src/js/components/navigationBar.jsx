@@ -10,8 +10,9 @@ export const NavigationBar = () => (
         <Link to={"/experiencias"} className={"exp-who"}>Experiencias</Link>
         <Link to={"/quienessomos"} className={"exp-who"}>Quiénes Somos</Link>
         </div>
-
-        <img className={"logo-eco"} src={logo} />
+        <Link to={"/"} >
+            <img className={"logo-eco"} src={logo} />
+        </Link>
             <div className={"containerSearchBar"}>
                 <label htmlFor={"search"}></label>
                 <input type={"text"} placeholder={"Busca tu experiencia"} />
