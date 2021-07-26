@@ -26,6 +26,7 @@ body{
   color:white;
   font-size: 1.2rem;
   margin-right: 2.5rem;
+
 }
 .navigationBar input {
   height: 1.5rem;
@@ -109,9 +110,13 @@ body{
   display: flex;
   justify-content:space-around;
   flex-wrap:wrap;
+  gap: 3rem;
 }
-.info-individual{
-  width:250px;
+.info-individual {
+  width: 200px;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
 }
 .container-profile-pic img {
   object-fit: cover;
@@ -138,6 +143,24 @@ body{
 
 
 /*experiencias cards*/
+.containerPageExperiences{
+     display: flex;
+     flex-direction: column;
+}
+/*.tituloexp {
+  display: block;
+  margin:auto;
+}*/
+.tituloexp {
+  /* display: block; */
+  /* margin: auto; */
+  min-height: 11rem;
+  justify-content: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: #03A062;
+}
 .container-cards{
   display: flex;
   flex-wrap: wrap;
@@ -240,9 +263,5 @@ body{
   font-size: 1rem;
 }
 
-.tituloexp {
-  display: block;
-  margin-left: auto;
-  margin-right: auto
-}
+
 

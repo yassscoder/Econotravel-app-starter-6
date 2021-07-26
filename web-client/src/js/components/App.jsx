@@ -13,6 +13,7 @@ export const App = () => {
                          <Switch>
                              <Route exact path="/">
                                  <Home />
+                                 <Experiencias/>
                              </Route>
                                 <Route path="/experiencias">
                                     <Experiencias />

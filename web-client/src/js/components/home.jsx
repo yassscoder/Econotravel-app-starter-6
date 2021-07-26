@@ -13,59 +13,59 @@ export const Home = () => (
             <img
                 className="d-block w-100"
                 src={montseny}
-                alt="First slide"
+                alt="Montseny"
             />
             <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>Excursiones en BTT</h3>
+                <p> Descubre la naturaleza con nuestras originales ruta BTT </p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
             <img
                 className="d-block w-100"
                 src={vela}
-                alt="Second slide"
+                alt="Velero"
             />
 
             <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3>Salidas en Velero</h3>
+                <p>Siente la inmensidad del gran azul y la fuerza del viento</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
             <img
                 className="d-block w-100"
                 src={batllo}
-                alt="Third slide"
+                alt="Modernismo"
             />
 
             <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3>Paseos por la ciudad</h3>
+                <p>Descubre los secretos que esconden las ciudades de noche</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
             <img
                 className="d-block w-100"
                 src={huerto}
-                alt="Third slide"
+                alt="Horticultura"
             />
 
             <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3>Del campo a tu casa</h3>
+                <p>Somos lo que comemos, aprende a cultivar tus propias verduras</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
             <img
                 className="d-block w-100"
                 src={montserrat}
-                alt="Third slide"
+                alt="Montserrat"
             />
 
             <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3>La montaña mágica</h3>
+                <p>Descubre esta misteriosa montaña y sus rincones más ocultos</p>
             </Carousel.Caption>
         </Carousel.Item>
     </Carousel>
