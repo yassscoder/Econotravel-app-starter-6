@@ -93,39 +93,50 @@ body{
 
 /*Quienes somos*/
 
-.container-banner-img{
-  height:300px;
-  width:100%;
-}
-
 .imgPrincipalAbout{
   width: 100%;
-  height:100%;
+  height:300px;
   object-fit: cover;
+  object-position: center;
+}
+.wrapper {
+  width:80%;
+  margin: 3rem auto;
+}
+.aboutUs {
+  font-size: 1.3rem;
+  line-height: 200%;
+  text-align: justify;
+  display:flex;
+  flex-flow: column;
+  row-gap: 1rem;
+}
+.aboutUs h2 {
+  font-weight:bold;
 }
 
-.team-info {
+.teamInfo {
   margin-top: 4rem;
   margin-bottom: 2rem;
   display: flex;
-  justify-content:space-around;
+  justify-content:space-between;
   flex-wrap:wrap;
-  gap: 3rem;
+
 }
-.info-individual {
+.infoIndividual {
   width: 200px;
   display: flex;
   flex-flow: column;
   text-align: center;
 }
-.container-profile-pic img {
+.containerProfilePic img {
   object-fit: cover;
   height: 150px;
   width: 150px;
   border-radius: 1rem;
   border:5px solid #fde724;
 }
-.team-name {
+.teamName {
   margin-top: 2rem;
   font-weight: bold;
 
@@ -134,10 +145,25 @@ body{
   font-size: 1.1rem;
 
 }
-.description-member{
+.descriptionMember{
   font-size:1rem;
   font-style:italic;
   font-weight: lighter;
+  text-align: justify;
+  line-height: 150%;
+}
+
+.contactUs{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.contactUs h2{
+  margin-bottom:2rem;
+}
+.contactUs h2, .aboutUs h2 {
+  color:#03A062;
 }
 
 

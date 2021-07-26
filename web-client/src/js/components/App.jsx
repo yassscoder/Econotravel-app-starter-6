@@ -22,7 +22,7 @@ export const App = () => {
                                     <Experiencias />
                                 </Route>
                                  <Route path="/quienessomos">
-                                     <QuienesSomos />
+
                                      <QuienesSomos2/>
                                  </Route>
                                  <Route path="/reservas">
