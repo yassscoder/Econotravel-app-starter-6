@@ -6,6 +6,8 @@ import {Reservas} from "./reservas";
 import {QuienesSomos} from "./quienesSomos";
 import {Home} from "./home";
 
+import {QuienesSomos2} from "./QuienesSomos2";
+
 export const App = () => {
 
      return <Router>
@@ -14,12 +16,14 @@ export const App = () => {
                              <Route exact path="/">
                                  <Home />
                                  <Experiencias/>
+
                              </Route>
                                 <Route path="/experiencias">
                                     <Experiencias />
                                 </Route>
                                  <Route path="/quienessomos">
                                      <QuienesSomos />
+                                     <QuienesSomos2/>
                                  </Route>
                                  <Route path="/reservas">
                                      <Reservas />

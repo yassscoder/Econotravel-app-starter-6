@@ -5,6 +5,7 @@ import marinaPic from './assets/marina-pic.jpg';
 import sheilaPic from './assets/Sheilapic.jpg';
 
 export const QuienesSomos  = () => (
+
     <section>
         <div className={"container-banner-img"}>
             <img className={"imgPrincipalAbout"} src={principalWho}/>
