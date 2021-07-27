@@ -152,7 +152,9 @@ body{
   text-align: justify;
   line-height: 150%;
 }
-
+.lineaHr{
+  color: #03a062;
+}
 .contactUs{
   display: flex;
   justify-content: space-between;
@@ -165,8 +167,26 @@ body{
 .contactUs h2, .aboutUs h2 {
   color:#03A062;
 }
+.wrapperDataContact {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+.wrapperContact a{
+  text-decoration: none;
+  color:inherit;
+}
+.wrapperContact a:hover{
+  color:#006c79;
+  font-weight: bold;
+  transform: scale(2);
+}
 
+.fa-paper-plane, .fa-phone-alt, .fa-map-marker-alt{
+  font-size: 2rem;
+  filter: invert(1);
 
+}
 
 /*experiencias cards*/
 .containerPageExperiences{
@@ -289,5 +309,40 @@ body{
   font-size: 1rem;
 }
 
+.priceExperience p{
+  color:red;
+  font-weight: bold;
+  font-size:1.2rem;
+}
+.btn-reservas3{
+  background-color: #03A062 ;
+  padding: 0.2rem;
+  color: white;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
 
+.durationExperience{
+  color:#cccccc;
+}
+
+
+
+/*Footer*/
+
+footer{
+  background-color: #23272a;
+  color: white;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:fixed;
+  bottom:0;
+  width: 100%;
+}
+footer p {
+  margin: auto;
+}
 

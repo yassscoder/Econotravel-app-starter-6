@@ -27,10 +27,17 @@ export const Experiencias = () => <section className={"containerPageExperiences"
         <div className="card-text">Disfruta de la impresionante Montaña de Montserrat donde encontraréis
             el Museo con las salas modernistas de Puig i Cadafalch, lugar que acoge colecciones de gran
             valor en el corazón de la emblemática montaña.</div>
+        <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 1 hora</h6>
         <div className="card-like-bar">
 
             <div className="like-text">
                 <Link className={"btn-reservas2"} to={"/reservas"} >Descubre +</Link>
+            </div>
+            <div className={"priceExperience"}>
+                <p>150€</p>
+            </div>
+            <div>
+                {/*<Link className={"btn-reservas3"} to={"/reservas"} >Reserva ya</Link>*/}
             </div>
         </div>
     </div>
@@ -49,6 +56,7 @@ export const Experiencias = () => <section className={"containerPageExperiences"
         <div className="card-text">Disfruta de un hermoso paseo en bicicleta por el increíble
             Parque Natural del Montseny. Una escapada veraniega perfecta para parejas, familias
             y amigos que nos permitirá conocer nuevos y sorprendentes lugares</div>
+        <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 1 hora</h6>
         <div className="card-like-bar">
 
             <div className="like-text">
@@ -71,6 +79,7 @@ export const Experiencias = () => <section className={"containerPageExperiences"
         <div className="card-text">Disfruta de un hermoso paseo acuático en barco de vela por
             la increíble costa de Barcelona. Una escapada veraniega apta incluso para los días
             más calurosos del año.</div>
+        <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 1 hora</h6>
         <div className="card-like-bar">
 
             <div className="like-text">
@@ -93,6 +102,7 @@ export const Experiencias = () => <section className={"containerPageExperiences"
         <div className="card-text">Desplazarse a pie es una de las mejores formas de descubrir
             las maravillas modernistas que se esconden en el barcelonés distrito del Eixample,
             ubicado en el centro de la ciudad. </div>
+        <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 1 hora</h6>
         <div className="card-like-bar">
 
             <div className="like-text">
@@ -115,6 +125,7 @@ export const Experiencias = () => <section className={"containerPageExperiences"
         <div className="card-text">Comparte con los más pequeños las maravillas de la naturaleza.
             En esta excursión breve de tres horas, podréis plantar vuestras propias hortalizas y
             verduras en el huerto de Can Gilabert, ubicado en el corazón del Montbaig.</div>
+        <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 1 hora</h6>
         <div className="card-like-bar">
 
             <div className="like-text">
@@ -138,6 +149,7 @@ export const Experiencias = () => <section className={"containerPageExperiences"
             la Cripta de Gaudí, declarada Patrimonio de la Humanidad por la UNESCO en 2005,
             la Colonia Güell y la exposición permanente,
             ubicada en la antigua cooperativa de la Colonia, inaugurada en el año 2008.</div>
+        <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 1 hora</h6>
         <div className="card-like-bar">
 
             <div className="like-text">

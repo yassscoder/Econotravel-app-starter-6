@@ -35,7 +35,7 @@ export function QuienesSomos2() {
     return (
         <Fragment>
 
-                    <img className={"imgPrincipalAbout"} src={principalWho}/>
+                    <img className={"imgPrincipalAbout"} src={principalWho} alt={"ilustración pareja viajeros"}/>
             <div className={"wrapper"}>
             <section className={"aboutUs"}>
                 <h2>Nuestra historia</h2>
@@ -44,18 +44,30 @@ export function QuienesSomos2() {
                 Preocupada por la falta de alternativas eco-friendly, Marina se propuso fundar una agencia de experiencias turísticas donde el respeto por la naturaleza fuera la principal prioridad. Así nació Econotravel Barcelona.
             </section>
             <PeopleList people={people}/>
+                <div className={"lineaHr"}>
+                <hr/>
+                </div>
             <section className={"contactUs"}>
-                <div className={"where"}>
-                    <h2>Ven a vernos</h2>
+                <div className={"wrapperContact"}>
+                    <div className={"wrapperDataContact"}>
+                        <i className="fas fa-map-marker-alt"></i>
+                        <h2>Ven a vernos</h2>
+                    </div>
                     <p>Visitanos en Carrer dels Viatgers 28 de Barcelona</p>
                 </div>
-                <div className={"contactPhone"}>
-                    <h2>Llámanos</h2>
-                    <p>+ 34 93 000 00 00</p>
+                <div className={"wrapperContact"}>
+                    <div className={"wrapperDataContact"}>
+                        <i className="fas fa-phone-alt"></i>
+                        <h2>Llámanos</h2>
+                    </div>
+                    <a href={"tel:+34930000000"}>+ 34 93 000 00 00</a>
                 </div>
-                <div className={"contactMail"}>
-                    <h2>Mándanos un email</h2>
-                    <p>info@econotravel.com</p>
+                <div className={"wrapperContact"}>
+                    <div className={"wrapperDataContact"}>
+                        <i className="far fa-paper-plane"></i>
+                        <h2>Mándanos un email</h2>
+                    </div>
+                    <a href={"mailto:info@econotravel.com"}>info@econotravel.com</a>
                 </div>
             </section>
         </div>

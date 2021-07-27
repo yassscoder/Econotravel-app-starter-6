@@ -7,11 +7,13 @@ import {QuienesSomos} from "./quienesSomos";
 import {Home} from "./home";
 
 import {QuienesSomos2} from "./QuienesSomos2";
+import {Footer} from "./Footer";
 
 export const App = () => {
 
      return <Router>
                     <NavigationBar/>
+
                          <Switch>
                              <Route exact path="/">
                                  <Home />
@@ -29,7 +31,7 @@ export const App = () => {
                                      <Reservas />
                                  </Route>
                          </Switch>
-
+                    <Footer/>
             </Router>
 
 }
