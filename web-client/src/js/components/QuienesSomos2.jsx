@@ -4,6 +4,7 @@ import {PeopleList} from "./PeopleList";
 import carlosPic from './assets/profile-pic.jpg';
 import marinaPic from './assets/marina-pic.jpg';
 import sheilaPic from './assets/Sheilapic.jpg';
+import principalWho from './assets/banner-pareja.png';
 
 
 export function QuienesSomos2() {
@@ -20,7 +21,7 @@ export function QuienesSomos2() {
             pic: carlosPic,
             name: "Alejandro Ferrera",
             job: "CTO",
-            aboutMe: "Aventurero y amante del código, dice que a 3000 metros de altura han salido sus mejores aplicaciones."
+            aboutMe: "Aventurero y amante del código limpio, en ninguna de sus escapadas puede faltar su pórtatil Sus mayores pasiones son la escalada, el refactoring y una buena hackaton."
         },
         {
             id: 3,
@@ -33,7 +34,31 @@ export function QuienesSomos2() {
 
     return (
         <Fragment>
+
+                    <img className={"imgPrincipalAbout"} src={principalWho}/>
+            <div className={"wrapper"}>
+            <section className={"aboutUs"}>
+                <h2>Nuestra historia</h2>
+                Nuestra empresa se fundó a raíz de un viaje que nuestra fundadora, Marina Herrán, realizó en bicicleta por Cataluña en el verano de 2001. Durante ese periodo, descubrió que las opciones turísticas que ofrecían ciudades como Barcelona, Girona y Reus dependían de transportes contaminantes y actividades poco respetuosas con la naturaleza y el entorno, algo que causaba un progresivo deterioro de los increíbles parajes naturales de Cataluña.
+                <br/>
+                Preocupada por la falta de alternativas eco-friendly, Marina se propuso fundar una agencia de experiencias turísticas donde el respeto por la naturaleza fuera la principal prioridad. Así nació Econotravel Barcelona.
+            </section>
             <PeopleList people={people}/>
+            <section className={"contactUs"}>
+                <div className={"where"}>
+                    <h2>Ven a vernos</h2>
+                    <p>Visitanos en Carrer dels Viatgers 28 de Barcelona</p>
+                </div>
+                <div className={"contactPhone"}>
+                    <h2>Llámanos</h2>
+                    <p>+ 34 93 000 00 00</p>
+                </div>
+                <div className={"contactMail"}>
+                    <h2>Mándanos un email</h2>
+                    <p>info@econotravel.com</p>
+                </div>
+            </section>
+        </div>
         </Fragment>
     );
 }
