@@ -9,8 +9,8 @@ import {Link} from "react-router-dom";
 
 export const Experiencias = () => <section className={"containerPageExperiences"}>
     <section className="tituloexp">
-        <h1> Descubre nuestras experiencias únicas</h1>
-        <h2> Turismo responsable km0</h2>
+        <h1 className={"titleExp"}> Descubre nuestras experiencias únicas</h1>
+        <h2 className={"titleExp1"}> Turismo responsable km0</h2>
     </section>
     <section className={"container-cards"}>
     <div className="card">
@@ -60,7 +60,8 @@ export const Experiencias = () => <section className={"containerPageExperiences"
         <div className="card-like-bar">
 
             <div className="like-text">
-                <Link className={"btn-reservas2"} to={"/reservas"} >Descubre +</Link>
+                <Link className={"btn-reservas2"} to={"/Experiencia-montseny"} >Descubre +</Link>
+
             </div>
         </div>
     </div>
