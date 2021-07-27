@@ -52,7 +52,8 @@ export const Experiencias = () => <section className={"containerPageExperiences"
         <div className="card-like-bar">
 
             <div className="like-text">
-                <Link className={"btn-reservas2"} to={"/reservas"} >Descubre +</Link>
+                <Link className={"btn-reservas2"} to={"/Experiencia-montseny"} >Descubre +</Link>
+
             </div>
         </div>
     </div>

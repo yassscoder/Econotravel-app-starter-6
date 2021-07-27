@@ -5,7 +5,7 @@ import {Experiencias} from "./Experiencias.jsx";
 import {Reservas} from "./reservas";
 import {QuienesSomos} from "./quienesSomos";
 import {Home} from "./home";
-
+import {ExperienciaMontseny} from "./Experiencia-montseny";
 import {QuienesSomos2} from "./QuienesSomos2";
 
 export const App = () => {
@@ -28,6 +28,9 @@ export const App = () => {
                                  <Route path="/reservas">
                                      <Reservas />
                                  </Route>
+                             <Route path="/Experiencia-montseny">
+                                 <ExperienciaMontseny />
+                             </Route>
                          </Switch>
 
             </Router>
