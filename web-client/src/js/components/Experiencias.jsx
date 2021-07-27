@@ -27,17 +27,13 @@ export const Experiencias = () => <section className={"containerPageExperiences"
         <div className="card-text">Disfruta de la impresionante Montaña de Montserrat donde encontraréis
             el Museo con las salas modernistas de Puig i Cadafalch, lugar que acoge colecciones de gran
             valor en el corazón de la emblemática montaña.</div>
-        <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 1 hora</h6>
+        <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 2 horas</h6>
         <div className="card-like-bar">
-
+            <h3 className={"priceExperience2"}>125€</h3>
             <div className="like-text">
-                <Link className={"btn-reservas2"} to={"/reservas"} >Descubre +</Link>
-            </div>
-            <div className={"priceExperience"}>
-                <p>150€</p>
-            </div>
-            <div>
-                {/*<Link className={"btn-reservas3"} to={"/reservas"} >Reserva ya</Link>*/}
+                <Link  to={"/reservas"} >
+                    <button className={"buttonCard"} type={"button"}>Descubre más</button>
+                </Link>
             </div>
         </div>
     </div>
@@ -56,12 +52,13 @@ export const Experiencias = () => <section className={"containerPageExperiences"
         <div className="card-text">Disfruta de un hermoso paseo en bicicleta por el increíble
             Parque Natural del Montseny. Una escapada veraniega perfecta para parejas, familias
             y amigos que nos permitirá conocer nuevos y sorprendentes lugares</div>
-        <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 1 hora</h6>
+        <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 5 horas</h6>
         <div className="card-like-bar">
-
+            <h3 className={"priceExperience2"}>250€</h3>
             <div className="like-text">
-                <Link className={"btn-reservas2"} to={"/Experiencia-montseny"} >Descubre +</Link>
-
+                <Link  to={"/reservas"} >
+                    <button className={"buttonCard"} type={"button"}>Descubre más</button>
+                </Link>
             </div>
         </div>
     </div>
@@ -80,11 +77,13 @@ export const Experiencias = () => <section className={"containerPageExperiences"
         <div className="card-text">Disfruta de un hermoso paseo acuático en barco de vela por
             la increíble costa de Barcelona. Una escapada veraniega apta incluso para los días
             más calurosos del año.</div>
-        <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 1 hora</h6>
+        <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 4 horas</h6>
         <div className="card-like-bar">
-
+            <h3 className={"priceExperience2"}>280€</h3>
             <div className="like-text">
-                <Link className={"btn-reservas2"} to={"/reservas"} >Descubre +</Link>
+                <Link  to={"/reservas"} >
+                <button className={"buttonCard"} type={"button"}>Descubre más</button>
+                </Link>
             </div>
         </div>
     </div>
@@ -102,12 +101,14 @@ export const Experiencias = () => <section className={"containerPageExperiences"
         <img className="card-image" src={card04} alt="Logo" />
         <div className="card-text">Desplazarse a pie es una de las mejores formas de descubrir
             las maravillas modernistas que se esconden en el barcelonés distrito del Eixample,
-            ubicado en el centro de la ciudad. </div>
-        <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 1 hora</h6>
+            ubicado en el centro de la ciudad. Visitarás el interior de la Casa Batlló y la Sagrada Familia.</div>
+        <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 4 horas</h6>
         <div className="card-like-bar">
-
+            <h3 className={"priceExperience2"}>200€</h3>
             <div className="like-text">
-                <Link className={"btn-reservas2"} to={"/reservas"} >Descubre +</Link>
+                <Link  to={"/reservas"} >
+                    <button className={"buttonCard"} type={"button"}>Descubre más</button>
+                </Link>
             </div>
         </div>
     </div>
@@ -126,15 +127,16 @@ export const Experiencias = () => <section className={"containerPageExperiences"
         <div className="card-text">Comparte con los más pequeños las maravillas de la naturaleza.
             En esta excursión breve de tres horas, podréis plantar vuestras propias hortalizas y
             verduras en el huerto de Can Gilabert, ubicado en el corazón del Montbaig.</div>
-        <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 1 hora</h6>
+        <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 3 horas</h6>
         <div className="card-like-bar">
-
+            <h3 className={"priceExperience2"}>145€</h3>
             <div className="like-text">
-                <Link className={"btn-reservas2"} to={"/reservas"} >Descubre +</Link>
+                <Link  to={"/reservas"} >
+                    <button className={"buttonCard"} type={"button"}>Descubre más</button>
+                </Link>
             </div>
         </div>
     </div>
-
     <div className="card">
         <div className="card-header">
             <div className="profile">
@@ -152,9 +154,11 @@ export const Experiencias = () => <section className={"containerPageExperiences"
             ubicada en la antigua cooperativa de la Colonia, inaugurada en el año 2008.</div>
         <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 1 hora</h6>
         <div className="card-like-bar">
-
+            <h3 className={"priceExperience2"}>150€</h3>
             <div className="like-text">
-                <Link className={"btn-reservas2"} to={"/reservas"} >Descubre +</Link>
+                <Link  to={"/reservas"} >
+                    <button className={"buttonCard"} type={"button"}>Descubre más</button>
+                </Link>
             </div>
         </div>
     </div>
