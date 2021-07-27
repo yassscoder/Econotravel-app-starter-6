@@ -6,9 +6,16 @@ import vela from './assets/vela.jpg';
 import batllo from './assets/casa-batllo.png';
 import huerto from './assets/huerto.jpg';
 import montserrat from './assets/montserrat.jpg';
+import bici from './assets/bici.png';
+import montaña from './assets/montaña.png';
+import barco from './assets/barco.png';
+import ciudad from './assets/ciudad.png';
+import restaurant from './assets/restaurant.png';
+
 
 export const Home = () => (
-    <Carousel>
+    <div>
+     <Carousel>
         <Carousel.Item>
             <img
                 className="d-block w-100"
@@ -68,6 +75,22 @@ export const Home = () => (
                 <p>Descubre esta misteriosa montaña y sus rincones más ocultos</p>
             </Carousel.Caption>
         </Carousel.Item>
-    </Carousel>
+     </Carousel>
+        <span className={"almohadilla"}>#Experiencias</span><span className={"eco"}>Econotravel</span>
+           <div className={"iconos"}>
+               <img className={"icon1"} src={bici} />
+               <img className={"icon"} src={montaña} />
+               <img className={"icon"} src={barco} />
+               <img className={"icon"} src={ciudad} />
+               <img className={"icon"} src={restaurant} />
+           </div>
+            <div className={"infIcon"}>
+                <div>Bicicletas</div>
+                <div>Montaña</div>
+                <div>Velero</div>
+                <div>Ciudad</div>
+                <div>Comida</div>
+            </div>
+    </div>
 
 )

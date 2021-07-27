@@ -7,6 +7,7 @@ import {QuienesSomos} from "./quienesSomos";
 import {Home} from "./home";
 
 import {QuienesSomos2} from "./QuienesSomos2";
+import {ExperiencePanel} from "./ExperiencePanel";
 
 export const App = () => {
 
