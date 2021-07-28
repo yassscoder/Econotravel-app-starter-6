@@ -6,6 +6,11 @@ import {Reservas} from "./reservas";
 import {QuienesSomos} from "./quienesSomos";
 import {Home} from "./home";
 import {ExperienciaMontseny} from "./Experiencia-montseny";
+import {ExperienciaMontserrat} from "./Experiencia-montserrat";
+import {ExperienciaVela} from "./Experiencia-vela";
+import {ExperienciaModernista} from "./Experiencia-bcnmodernista";
+import {ExperienciaHorticultura} from "./Experiencia-horticultura";
+import {ExperienciaColonia} from "./Experiencia-colonia";
 import {QuienesSomos2} from "./QuienesSomos2";
 import {Footer} from "./Footer";
 import {ExperiencePanel} from "./ExperiencePanel";
@@ -34,6 +39,21 @@ export const App = () => {
                                  </Route>
                              <Route path="/Experiencia-montseny">
                                  <ExperienciaMontseny />
+                             </Route>
+                             <Route path="/Experiencia-montserrat">
+                                 <ExperienciaMontserrat />
+                             </Route>
+                             <Route path="/Experiencia-vela">
+                                 <ExperienciaVela />
+                             </Route>
+                             <Route path="/Experiencia-bcnmodernista">
+                                 <ExperienciaModernista />
+                             </Route>
+                             <Route path="/Experiencia-horticultura">
+                                 <ExperienciaHorticultura />
+                             </Route>
+                             <Route path="/Experiencia-colonia">
+                                 <ExperienciaColonia />
                              </Route>
                              <Route path="/Booking-done">
                                  <SuccesfulBooking />

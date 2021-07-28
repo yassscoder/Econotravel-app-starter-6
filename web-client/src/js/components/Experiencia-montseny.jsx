@@ -17,9 +17,9 @@ export const ExperienciaMontseny = () =>
     <section className={"gallery"}>
 
 
-        <img className={"montseny-bici"} src={montsenybici} />
-        <img className={"montseny-mini1"} src={montseny_mini01} />
-        <img className={"montseny-mini2"} src={montseny_mini02} />
+        <img className={"foto-grande"} src={montsenybici} />
+        <img className={"foto-mini1"} src={montseny_mini01} />
+        <img className={"foto-mini2"} src={montseny_mini02} />
     </section>
         <div className={"linea-iconos"}>
             <div className={"apartadoiconos"}>
@@ -49,6 +49,6 @@ export const ExperienciaMontseny = () =>
             blanca y negra y munxetes del Montseny.
 
         </article>
-    Lore
+
 </section>
 
