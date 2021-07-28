@@ -6,8 +6,9 @@ import card04 from "./assets/card04.jpg";
 import card05 from "./assets/card05.jpg";
 import card06 from "./assets/card06.jpg";
 import {Link} from "react-router-dom";
+import {HashLink} from "react-router-hash-link";
 
-export const Experiencias = () => <section className={"containerPageExperiences"}>
+export const Experiencias = () => <section id={"sectionExperiences"} className={"containerPageExperiences"}>
     <section className="tituloexp">
         <h1 className={"titleExp"}> Descubre nuestras experiencias únicas</h1>
         <h2 className={"titleExp1"}> Turismo responsable km0</h2>
@@ -31,7 +32,7 @@ export const Experiencias = () => <section className={"containerPageExperiences"
         <div className="card-like-bar">
             <h3 className={"priceExperience2"}>125€</h3>
             <div className="like-text">
-                <Link  to={"/reservas"} >
+                <Link to={"/Experiencia-montseny"}>
                     <button className={"buttonCard"} type={"button"}>Descubre más</button>
                 </Link>
             </div>
@@ -56,7 +57,7 @@ export const Experiencias = () => <section className={"containerPageExperiences"
         <div className="card-like-bar">
             <h3 className={"priceExperience2"}>250€</h3>
             <div className="like-text">
-                <Link  to={"/reservas"} >
+                <Link  to={"/Experiencia-montseny"} >
                     <button className={"buttonCard"} type={"button"}>Descubre más</button>
                 </Link>
             </div>

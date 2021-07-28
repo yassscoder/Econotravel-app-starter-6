@@ -1,13 +1,14 @@
 import * as React from "react";
 import {Link} from "react-router-dom";
 import logo from './assets/logo-center.png';
+import {HashLink} from "react-router-hash-link";
 
 
 
 export const NavigationBar = () => (
     <nav className={"navigationBar"}>
         <div className={"containerExpWho"}>
-        <Link to={"/experiencias"} className={"exp-who"}>Experiencias</Link>
+        <HashLink smooth to={"/#sectionExperiences"} className={"exp-who"}>Experiencias</HashLink>
         <Link to={"/quienessomos"} className={"exp-who"}>Quiénes Somos</Link>
         </div>
         <Link to={"/"} >
@@ -24,3 +25,4 @@ export const NavigationBar = () => (
 
     </nav>
 )
+

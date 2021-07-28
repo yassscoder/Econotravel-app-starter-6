@@ -9,6 +9,7 @@ import {ExperienciaMontseny} from "./Experiencia-montseny";
 import {QuienesSomos2} from "./QuienesSomos2";
 import {Footer} from "./Footer";
 import {ExperiencePanel} from "./ExperiencePanel";
+import {SuccesfulBooking} from "./SuccesfulBooking";
 
 
 export const App = () => {
@@ -20,7 +21,6 @@ export const App = () => {
                              <Route exact path="/">
                                  <Home />
                                  <Experiencias/>
-
                              </Route>
                                 <Route path="/experiencias">
                                     <Experiencias />
@@ -34,6 +34,9 @@ export const App = () => {
                                  </Route>
                              <Route path="/Experiencia-montseny">
                                  <ExperienciaMontseny />
+                             </Route>
+                             <Route path="/Booking-done">
+                                 <SuccesfulBooking />
                              </Route>
                          </Switch>
                     <Footer/>
