@@ -56,7 +56,7 @@ export const Experiencias = () => <section className={"containerPageExperiences"
         <div className="card-like-bar">
             <h3 className={"priceExperience2"}>250€</h3>
             <div className="like-text">
-                <Link  to={"/reservas"} >
+                <Link  to={"/Experiencia-montseny"} >
                     <button className={"buttonCard"} type={"button"}>Descubre más</button>
                 </Link>
             </div>
