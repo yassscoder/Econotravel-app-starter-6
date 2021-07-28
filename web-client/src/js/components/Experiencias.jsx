@@ -6,7 +6,6 @@ import card04 from "./assets/card04.jpg";
 import card05 from "./assets/card05.jpg";
 import card06 from "./assets/card06.jpg";
 import {Link} from "react-router-dom";
-import {HashLink} from "react-router-hash-link";
 
 export const Experiencias = () => <section id={"sectionExperiences"} className={"containerPageExperiences"}>
     <section className="tituloexp">
