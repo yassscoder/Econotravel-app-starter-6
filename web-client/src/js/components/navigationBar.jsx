@@ -14,13 +14,15 @@ export const NavigationBar = () => (
             <img className={"logo-eco"} src={logo} />
         </Link>
             <div className={"containerSearchBar"}>
-                <label htmlFor={"search"}></label>
-                <input type={"text"} placeholder={"Busca tu experiencia"} />
-                <button className={"btn-search"} type="submit"><i className={"fa fa-search"}></i></button>
-
+                <section>
+                    <label htmlFor={"search"}></label>
+                    <input type={"text"} placeholder={"Busca tu experiencia"} />
+                    <button className={"btn-search"} type="submit"><i className={"fa fa-search"}></i></button>
+                </section>
+                <Link className={"btn-reservas"} to={"/reservas"} >Reservas</Link>
             </div>
 
-            <Link className={"btn-reservas"} to={"/reservas"} >Reservas</Link>
+
 
     </nav>
 )
