@@ -87,9 +87,9 @@ export const Home = () => (
             <div className={"infIcon"}>
                 <div>Bicicletas</div>
                 <div>Montaña</div>
-                <div>Velero</div>
+                <div>Playa</div>
                 <div>Ciudad</div>
-                <div>Comida</div>
+                <div>Groumet</div>
             </div>
     </div>
 

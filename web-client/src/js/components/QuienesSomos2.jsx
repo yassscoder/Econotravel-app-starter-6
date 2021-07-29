@@ -55,7 +55,7 @@ export function QuienesSomos2() {
                     </div>
                     <p>Visitanos en Carrer dels Viatgers 28 de Barcelona</p>
                 </div>
-                <div className={"wrapperContact"}>
+                <div id="sectionContact" className={"wrapperContact"}>
                     <div className={"wrapperDataContact"}>
                         <i className="fas fa-phone-alt"></i>
                         <h2>Llámanos</h2>

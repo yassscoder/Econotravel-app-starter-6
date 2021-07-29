@@ -95,7 +95,7 @@ body{
   font-size: 2rem;
   font-weight: bold;
   color: #006c79;
-  margin-left: 2rem;
+  margin: 5rem 1rem 5rem 5rem;
 }
 .eco {
   font-size: 2rem;
@@ -125,20 +125,11 @@ body{
   font-weight: bold;
 }
 
-/*experiencias*/
+/*titulo home*/
 
-.cabeceraexperiencias {
-  font-size: 2.5rem;
-  color: #ff7171;
-  font-weight: bold;
-  margin-bottom: 2rem;
-}
 
-.containerexperiencias {
-  margin: 3rem 10rem;
-  display: flex;
-  flex-direction: column;
-}
+
+
 .titleExp {
   text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
   color: #FF6347FF;
@@ -164,7 +155,7 @@ body{
 }
 .wrapper {
   width:80%;
-  margin: 3rem auto;
+  margin: 3rem auto 10rem;
 }
 .aboutUs {
   font-size: 1.3rem;
@@ -255,6 +246,7 @@ body{
 .containerPageExperiences{
      display: flex;
      flex-direction: column;
+      margin-bottom: 6rem;
 }
 
 .tituloexp {
@@ -414,8 +406,21 @@ footer p {
 
 
 
+/*Reserva hecha*/
 
-
+.containerBooking{
+  display:flex;
+  flex-flow: column;
+  gap: 1.3rem;
+  margin: 18rem 2rem;
+  align-items: center;
+}
+.containerBooking a{
+  text-decoration: none;
+}
+.bookingContact {
+  color: var(--primary-color);
+}
 
 
 
@@ -551,7 +556,7 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #4CAF50;
+  background: var(--primary-color);
   color: #FFF;
   margin: 0 0 5px;
   padding: 10px;
@@ -559,7 +564,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-  background: #43A047;
+  background: var(--primary-color);
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
@@ -595,22 +600,96 @@ fieldset {
 
 //experiencias detalle
 
+.containerexperiencias {
+  margin: 3rem 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.cabeceraexperiencias {
+  font-size: 2.5rem;
+  color: #ff7171;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  color: #FF6347FF;
+  background: #FFFFFF;
+  margin-top: 2rem;
+}
+.experienciasmuseos {
+  margin-top: 2rem;
+}
+.experienciascultura {
+  color: green;
+  font-style: italic;
+}
+
 .gallery {
   display: grid;
-  gird-template-columns: repeat(12, 1fr);
-  grid-gap: 2px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr) 0 repeat(2, 1fr);
+  grid-column-gap: 0.2rem;
+  grid-row-gap: 0.2rem;
 
 }
-
-.gallery img {
+.foto-grande {
+  grid-area: 1 / 1 / 6 / 4;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.foto-mini1 {
+  grid-area: 1 / 4 / 3 / 6;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.foto-mini2 {
+  grid-area: 4 / 4 / 6 / 6;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.linea-iconos {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  text-align: center;
+  height: 8rem;
+}
+.apartadoiconos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.icono_ticket {
+  width: 2rem;
+
+}
+.icono_tiempo {
+  width: 2rem;
+}
+
+.icono_edades {
+  width: 2rem;
+}
+
+
+
+
+
+.btn-reservas2 {
+  background-color: var(--secondary-color);
+  height: 2rem;
+  width: 6rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  font-size: 1rem;
 
 }
 
-.gallery img:nth-child(1) {
-  grid-area: 2 / 3 / span 2 / span 3;
-}
-
-.gallery img:nth-child(1) {
-  grid-area: span 1 / span 4;
-}

@@ -1,4 +1,5 @@
 import * as React from "react";
+import {Link} from "react-router-dom";
 
 export const Reservas  = () => <section>
 
@@ -19,21 +20,21 @@ export const Reservas  = () => <section>
                 <select class="desplegable" type="text" tabIndex="4" required id="experiencia" name="experiencia">
                     <option value={"experiencia"}> Selecciona tu experiencia </option>
                     <option value="1"> Montseny -- 250€ --  </option>
-                    <option value="1"> Vela -- 325€ -- </option>
-                    <option value="1"> Modernismo -- 100€ -- </option>
-                    <option value="1"> No me acuerdo -- 340€ -- </option>
-                    <option value="1"> Sigo sin acordarme --200€ -- </option>
+                    <option value="2"> Vela -- 280€ -- </option>
+                    <option value="3"> Modernismo -- 200€ -- </option>
+                    <option value="4"> Huerto -- 145€ -- </option>
+                    <option value="5"> Montserrat --125€ -- </option>
                 </select>
             </fieldset>
             <fieldset>
                 <select class="desplegable" type="text" tabIndex="4" required id="experiencia" name="experiencia">
                     <option select value={"experiencia"}> Número de personas </option>
                     <option value="1"> 1 </option>
-                    <option value="1"> 2 </option>
-                    <option value="1"> 3 </option>
-                    <option value="1"> 4 </option>
-                    <option value="1"> 5 </option>
-                    <option value="1"> 6 </option>
+                    <option value="2"> 2 </option>
+                    <option value="3"> 3 </option>
+                    <option value="4"> 4 </option>
+                    <option value="5"> 5 </option>
+                    <option value="6"> 6 </option>
                 </select>
             </fieldset>
 
@@ -42,7 +43,9 @@ export const Reservas  = () => <section>
             </fieldset>
 
             <fieldset>
+                <Link to={"/Booking-done"} >
                 <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </Link>
             </fieldset>
 
         </form>
