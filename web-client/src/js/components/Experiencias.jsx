@@ -16,7 +16,7 @@ export const Experiencias = () => <section id={"sectionExperiences"} className={
     <div className="card">
         <div className="card-header">
             <div className="profile">
-                <span className="letter">Mountain</span>
+                <span className="letter"><i className="fas fa-mountain"></i></span>
             </div>
             <div className="card-title-group">
                 <h5 className="card-title">Montserrat</h5>
@@ -41,7 +41,7 @@ export const Experiencias = () => <section id={"sectionExperiences"} className={
     <div className="card">
         <div className="card-header">
             <div className="profile">
-                <span className="letter">Mountain</span>
+                <span className="letter"><i className="fas fa-mountain"></i></span>
             </div>
             <div className="card-title-group">
                 <h5 className="card-title">Montseny</h5>
@@ -66,7 +66,7 @@ export const Experiencias = () => <section id={"sectionExperiences"} className={
     <div className="card">
         <div className="card-header">
             <div className="profile">
-                <span className="letter">Playa</span>
+                <span className="letter"><i className="fas fa-anchor"></i></span>
             </div>
             <div className="card-title-group">
                 <h5 className="card-title">Velero</h5>
@@ -91,7 +91,7 @@ export const Experiencias = () => <section id={"sectionExperiences"} className={
     <div className="card">
         <div className="card-header">
             <div className="profile">
-                <span className="letter">Ciudad</span>
+                <span className="letter"><i className="fas fa-landmark"></i></span>
             </div>
             <div className="card-title-group">
                 <h5 className="card-title">Barcelona</h5>
@@ -116,7 +116,7 @@ export const Experiencias = () => <section id={"sectionExperiences"} className={
     <div className="card">
         <div className="card-header">
             <div className="profile">
-                <span className="letter">City</span>
+                <span className="letter"><i className="fas fa-carrot"></i></span>
             </div>
             <div className="card-title-group">
                 <h5 className="card-title">Horticultura</h5>
@@ -140,7 +140,7 @@ export const Experiencias = () => <section id={"sectionExperiences"} className={
     <div className="card">
         <div className="card-header">
             <div className="profile">
-                <span className="letter">Ciudad</span>
+                <span className="letter"><i className="fas fa-landmark"></i></span>
             </div>
             <div className="card-title-group">
                 <h5 className="card-title">Colonia Güell</h5>
