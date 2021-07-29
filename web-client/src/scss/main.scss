@@ -23,12 +23,14 @@ body{
 .containerExpWho {
   display: flex;
   align-items: center;
-  width: 16rem;
+  width: 22rem;
+  gap: 2rem;
 }
 
 .containerSearchBar {
   display: flex;
   align-items: center;
+  gap: 2rem;
 }
 .exp-who {
   text-decoration: none;
@@ -135,9 +137,11 @@ body{
   color: #FF6347FF;
   background: #FFFFFF;
   margin-top: 2rem;
+  text-align: center;
 }
 .titleExp1 {
   font-weight: bold;
+  text-align: center;
 }
 
 
