@@ -2,11 +2,14 @@ import * as React from "react";
 import {Link} from "react-router-dom";
 import logo from './assets/logo-center.png';
 import {HashLink} from "react-router-hash-link";
+import {Sidebar} from "./Sidebar";
 
 
 
 export const NavigationBar = () => (
-    <nav className={"navigationBar"}>
+   <router>
+       <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+        <nav className={"navigationBar"}>
         <div className={"containerExpWho"}>
         <HashLink smooth to={"/#sectionExperiences"} className={"exp-who"}>Experiencias</HashLink>
         <Link to={"/quienessomos"} className={"exp-who"}>Quiénes Somos</Link>
@@ -26,5 +29,6 @@ export const NavigationBar = () => (
 
 
     </nav>
+   </router>
 )
 
