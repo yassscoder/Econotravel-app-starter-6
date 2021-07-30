@@ -6,6 +6,7 @@ import iconoticket from './assets/icono_ticket.png';
 import iconotiempo from './assets/icono_tiempo.png';
 import iconoedades from './assets/icono_edades.png';
 import {Link} from "react-router-dom";
+import iconoaccesibilidad from "./assets/icono_accesibilidad.png";
 
 
 export const ExperienciaColonia = () =>
@@ -34,11 +35,15 @@ export const ExperienciaColonia = () =>
                 <img className={"icono_edades"} src={iconoedades} />
                 <p className={"textoiconos"}>Todas las edades</p>
             </div>
+            <div className={"apartadoiconos"}>
+                <img className={"icono_accesibilidad"} src={iconoaccesibilidad} />
+                <p className={"textoiconos"}>Pasarela silla ruedas</p>
+            </div>
             <Link className={"btn-reservas2"} to={"/reservas"} >Reserva</Link>
         </div>
         <h1 className={"experienciasmuseos"}>Visita a la Colonia Güell, una joya del modernismo</h1>
         <h5 className={"experienciascultura"}>Descubre la cripta de este laboratorio de la arquitectura modernista</h5>
-        <article>La Colonia Güell es una pequeña colonia industrial situada a 10 minutos de Barcelona.
+        <article className={"textodescricion"}>La Colonia Güell es una pequeña colonia industrial situada a 10 minutos de Barcelona.
             Está considerada uno de los referentes para estudiar la arquitectura de Antoni Gaudí y
             es también uno de los conjuntos modernistas y atractivos turísticos más importantes de Cataluña.
             A diferencia de la gran mayoría de colonias industriales de Cataluña, Eusebi Güell

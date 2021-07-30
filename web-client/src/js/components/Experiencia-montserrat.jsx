@@ -6,6 +6,7 @@ import iconoticket from './assets/icono_ticket.png';
 import iconotiempo from './assets/icono_tiempo.png';
 import iconoedades from './assets/icono_edades.png';
 import {Link} from "react-router-dom";
+import iconoaccesibilidad from "./assets/icono_accesibilidad.png";
 
 
 export const ExperienciaMontserrat = () =>
@@ -34,11 +35,15 @@ export const ExperienciaMontserrat = () =>
                 <img className={"icono_edades"} src={iconoedades} />
                 <p className={"textoiconos"}>Todas las edades</p>
             </div>
+            <div className={"apartadoiconos"}>
+                <img className={"icono_accesibilidad"} src={iconoaccesibilidad} />
+                <p className={"textoiconos"}>Acceso silla ruedas</p>
+            </div>
             <Link className={"btn-reservas2"} to={"/reservas"} >Reserva</Link>
         </div>
         <h1 className={"experienciasmuseos"}>Arte en la montaña sagrada</h1>
         <h5 className={"experienciascultura"}>Disfruta de la impresionante Montaña de Montserrat </h5>
-        <article> Encontraréis el Museo con las salas
+        <article className={"textodescricion"}> Encontraréis el Museo con las salas
             modernistas de Puig i Cadafalch, lugar que acoge colecciones de gran valor en el corazón de la
             emblemática montaña. En el Museo encontraréis pinturas del Renacimiento y del Barroco que conviven
             con autores de los siglos XIX y XX, objetos del Próximo Oriente y orfebrería. Además de disfrutar de

@@ -1,11 +1,20 @@
 import React, {useState} from 'react';
 import { useForm } from 'react-hook-form';
+import {Link} from "react-router-dom";
 
 export function Reservas() {
     const { register, handleSubmit, formState: { errors } } = useForm();
-    const [submitted, setsubmitted] = useState(false);
-    const onSubmit = data => setsubmitted(true);
-    console.log(errors);
+    const [submitted, setSubmitted] = useState(false);
+    const onSubmit = data => {
+        console.log(data);
+        console.log(errors);
+        setSubmitted(true);
+        if (submitted) {
+            return <redirect to={"/Booking-done"}>
+
+            </redirect>
+        }
+    }
 
     return (
         <div className="fondo">
@@ -22,14 +31,14 @@ export function Reservas() {
                 </fieldset>
                 <fieldset>
                     <input type="text" placeholder="Email" {...register("Email", {required: true, pattern: /^\S+@\S+$/i})} />
-                    {errors.Nombre?.type === 'required' && "mail para enviarte la confirmación"}
+                    {errors.Email?.type === 'required' && "mail para enviarte la confirmación"}
                 </fieldset>
                 <fieldset>
-                    <input type="tel" placeholder="Mobile number" {...register("Mobile number", {required: true, minLength: 6, maxLength: 12})} />
-                    {errors.Nombre?.type === 'required' && "Sólo te llamaremos por una urgencia"}
+                    <input type="tel" placeholder="Número móvil" {...register("Mobile_number", {required: true, minLength: 6, maxLength: 12})} />
+                    {errors.Mobile_number?.type === 'required' && "Sólo te llamaremos por una urgencia"}
                 </fieldset>
                 <fieldset>
-                    <select className="desplegable" {...register("Experiencias", { required: true })}>
+                    <select className="desplegable" type="text"{...register("Experiencias", { required: true })}>
                     <option value={"experiencia"}> Selecciona tu experiencia </option>
                     <option value="Experiencia Montseny -- 250€ --">Experiencia Montseny -- 250€ --</option>
                     <option value=" Experiencia Montserrat --125€ --"> Experiencia Montserrat --125€ --</option>
@@ -38,11 +47,11 @@ export function Reservas() {
                     <option value=" Experiencia Colonia Güell -- 50€ --"> Experiencia Colonia Güell -- 50€ --</option>
                     <option value=" Experiencia Modernismo -- 200€ --"> Experiencia Modernismo -- 200€ --</option>
                 </select>
-                    {errors.Nombre?.type === 'required' && "Selecciona una experiencia"}
+                    {errors.Experiencias?.type === 'required' && "Selecciona una experiencia"}
                 </fieldset>
                 <fieldset>
                     <select className="desplegable" {...register("Personas", { required: true })}>
-                    <option select value={"experiencia"}> Número de personas </option>
+                    <option value={"experiencia"}> Número de personas </option>
                     <option value="1">1</option>
                     <option value=" 2"> 2</option>
                     <option value=" 3"> 3</option>
@@ -50,14 +59,14 @@ export function Reservas() {
                     <option value=" 5"> 5</option>
                     <option value=" 6"> 6</option>
                 </select>
-                    {errors.Nombre?.type === 'required' && "Selección obligatoria"}
+                    {errors.Personas?.type === 'required' && "Selección obligatoria"}
                 </fieldset>
                 <fieldset>
-{
-               <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-
-}
-
+                    {/*<Link to={"/SuccesfulBooking"} >
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit
+               </button>
+                    {/*</Link>*/}
+                    <input name="submit" type="submit" id="contact-submit" />
                 </fieldset>
 
             </form>

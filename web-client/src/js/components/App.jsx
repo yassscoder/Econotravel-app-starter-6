@@ -58,6 +58,7 @@ export const App = () => {
                              <Route path="/Booking-done">
                                  <SuccesfulBooking />
                              </Route>
+
                          </Switch>
                     <Footer/>
             </Router>

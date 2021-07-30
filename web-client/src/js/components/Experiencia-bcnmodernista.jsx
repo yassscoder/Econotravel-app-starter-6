@@ -6,6 +6,7 @@ import iconoticket from './assets/icono_ticket.png';
 import iconotiempo from './assets/icono_tiempo.png';
 import iconoedades from './assets/icono_edades.png';
 import {Link} from "react-router-dom";
+import iconoaccesibilidad from "./assets/icono_accesibilidad.png";
 
 
 export const ExperienciaModernista = () =>
@@ -34,11 +35,15 @@ export const ExperienciaModernista = () =>
                 <img className={"icono_edades"} src={iconoedades} />
                 <p className={"textoiconos"}>Todas las edades</p>
             </div>
+            <div className={"apartadoiconos"}>
+                <img className={"icono_accesibilidad"} src={iconoaccesibilidad} />
+                <p className={"textoiconos"}>Adaptada para silla ruedas</p>
+            </div>
             <Link className={"btn-reservas2"} to={"/reservas"} >Reserva</Link>
         </div>
         <h1 className={"experienciasmuseos"}>Descubre la Barcelona Modernista de noche</h1>
         <h5 className={"experienciascultura"}>Ven a conocer los secretos que esconde el modernismo arquitectónico </h5>
-        <article> Desplazarse a pie es una de las mejores formas de descubrir las maravillas modernistas que
+        <article className={"textodescricion"}> Desplazarse a pie es una de las mejores formas de descubrir las maravillas modernistas que
             se esconden en el barcelonés distrito del Eixample, ubicado en el centro de la ciudad. En esta excursión
             de cuatro horas, descubriremos los principales emblemas del modernismo y visitaremos los templos y
             edificios más célebres del arquitecto Gaudí.
