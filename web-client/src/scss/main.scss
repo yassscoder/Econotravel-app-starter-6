@@ -49,14 +49,14 @@ body{
   height: 2rem;
   width:12rem;
   border:none;
+  border-bottom-left-radius: 0.3rem;
   border-top-left-radius: 0.3rem;
-  border-bottom-left-radius:0.3rem;
 }
 .btn-reservas {
-  background-color: var(--secondary-color);
+  border: var(--secondary-color) 2px solid;
   height: 2rem;
-  width: 5rem;
-  color: var(--light-font-color);
+  width: 7rem;
+  color: var(--secondary-color);
   text-align: center;
   font-weight: bold;
   border-radius: 0.4rem;
@@ -66,8 +66,8 @@ body{
 
 }
 .btn-reservas:hover {
-  background: #FDE724;
-  box-shadow: 0 0 5px #FDE724, 0 0 25px #FDE724, 0 0 50px #FDE724, 0 0 200px #FDE724;
+  background: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .logo-eco{
@@ -79,17 +79,17 @@ body{
   transform: scale(1.1);
 }
 .lupa {
-  height: 30px;
+  height: 35px;
   filter:invert(1);
 }
 .fa-search {
-  font-size: 0.7rem;
+  font-size: 1.2rem;
   color: var(--light-font-color);
   cursor: pointer;
 }
 .btn-search {
   border: none;
-  background-color: #006c79;
+  background-color: var(--secondary-color);
   width: 2rem;
   border-bottom-right-radius: 0.3rem;
   border-top-right-radius: 0.3rem;
@@ -97,11 +97,15 @@ body{
 }
 
 /* Iconos slider */
+.carousel {
+  position: relative;
+  margin-bottom: 2rem;
+}
 .almohadilla {
   font-size: 2rem;
   font-weight: bold;
-  color: #006c79;
-  margin: 5rem 1rem 5rem 5rem;
+  color: var(--secondary-color);
+  margin: 5rem 0 5rem 5rem;
 }
 .eco {
   font-size: 2rem;
@@ -139,6 +143,7 @@ body{
 .titleExp {
   //text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
   color: var(--primary-color);
+  font-weight: bold;
   background: #FFFFFF;
   margin-top: 2rem;
   text-align: center;
@@ -732,18 +737,18 @@ fieldset {
   position: fixed;
   width: 30px;
   height: 25px;
-  left: 5px;
+  left: 10px;
   top: 25px;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #006c79;
+  background: var(--secondary-color);
 }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: #FDE724;
+  background: var(--secondary-color);
 }
 
 /* Position and sizing of clickable cross button */
