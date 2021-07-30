@@ -15,11 +15,13 @@ import {QuienesSomos2} from "./QuienesSomos2";
 import {Footer} from "./Footer";
 import {ExperiencePanel} from "./ExperiencePanel";
 import {SuccesfulBooking} from "./SuccesfulBooking";
+import {Sidebar} from "./Sidebar";
 
 
 export const App = () => {
 
      return <Router>
+
                     <NavigationBar/>
 
                          <Switch>
