@@ -44,10 +44,13 @@ export function QuienesSomos2() {
                 Preocupada por la falta de alternativas eco-friendly, Marina se propuso fundar una agencia de experiencias turísticas donde el respeto por la naturaleza fuera la principal prioridad. Así nació Econotravel Barcelona.
             </section>
             <PeopleList people={people}/>
+
+                <h2 id={"ayuda"}>¿Te podemos ayudar?</h2>
                 <div className={"lineaHr"}>
                 <hr/>
                 </div>
             <section className={"contactUs"}>
+
                 <div className={"wrapperContact"}>
                     <div className={"wrapperDataContact"}>
                         <i className="fas fa-map-marker-alt"></i>

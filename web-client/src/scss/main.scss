@@ -172,7 +172,13 @@ body{
 .aboutUs h2 {
   font-weight:bold;
 }
-
+#ayuda{
+    color: var(--primary-color);
+    justify-content: center;
+    display: flex;
+    margin-top: 6.5rem;
+    margin-bottom: 4rem;
+}
 .teamInfo {
   margin-top: 4rem;
   margin-bottom: 2rem;
@@ -211,13 +217,18 @@ body{
   line-height: 150%;
 }
 .lineaHr {
-  color: var(--primary-color);
+    border: none;
+    height: 2px;
+    background-color: #dedad6;
+    color: #dedad6;
+    margin-top: 2rem;
 }
 .contactUs{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
+  margin-top: 4rem;
 }
 .contactUs h2{
   margin-bottom:2rem;
