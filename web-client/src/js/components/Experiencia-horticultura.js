@@ -6,6 +6,7 @@ import iconoticket from './assets/icono_ticket.png';
 import iconotiempo from './assets/icono_tiempo.png';
 import iconoedades from './assets/icono_edades.png';
 import {Link} from "react-router-dom";
+import iconoaccesibilidad from "./assets/icono_accesibilidad.png";
 
 
 export const ExperienciaHorticultura = () =>
@@ -36,10 +37,14 @@ export const ExperienciaHorticultura = () =>
             </div>
             <Link className={"btn-reservas2"} to={"/reservas"} >Reserva</Link>
         </div>
+        <div className={"apartadoiconos"}>
+            <img className={"icono_accesibilidad"} src={iconoaccesibilidad} />
+            <p className={"textoiconos"}>Accesso para silla ruedas</p>
+        </div>
         <h1 className={"experienciasmuseos"}>Cultiva y recolecta tus propias verduras</h1>
         <h5 className={"experienciascultura"}>Hunde tus manos en la tierra y come una de las ensaladas más
             frescas de tu vida.</h5>
-        <article>Comparte con los más pequeños las maravillas de la naturaleza. En esta excursión breve
+        <article className={"textodescricion"}>Comparte con los más pequeños las maravillas de la naturaleza. En esta excursión breve
             de tres horas, podréis plantar vuestras propias hortalizas y verduras en el huerto de Can Gilabert,
             ubicado en el corazón del Montbaig. Durante una hora y media, aprenderéis a cuidar de vuestro
             propio huerto, plantaréis y abonaréis vuestras propias plantas, y también recogeréis parte de

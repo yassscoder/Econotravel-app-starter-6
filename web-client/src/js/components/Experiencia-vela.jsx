@@ -5,6 +5,7 @@ import vela_mini02 from './assets/vela_mini02.jpg';
 import iconoticket from './assets/icono_ticket.png';
 import iconotiempo from './assets/icono_tiempo.png';
 import iconoedades from './assets/icono_edades.png';
+import iconoaccesibilidad from './assets/icono_accesibilidad.png';
 import {Link} from "react-router-dom";
 
 
@@ -12,7 +13,7 @@ export const ExperienciaVela = () =>
 
     <section className="containerexperiencias">
         <header className={"cabeceraexperiencias"}>
-            Montseny mágico
+            La costa catalana desde el mar
         </header>
         <section className={"gallery"}>
 
@@ -34,11 +35,15 @@ export const ExperienciaVela = () =>
                 <img className={"icono_edades"} src={iconoedades} />
                 <p className={"textoiconos"}>Todas las edades</p>
             </div>
+            <div className={"apartadoiconos"}>
+                <img className={"icono_accesibilidad"} src={iconoaccesibilidad} />
+                <p className={"textoiconos"}>Pasarela silla ruedas</p>
+            </div>
             <Link className={"btn-reservas2"} to={"/reservas"} >Reserva</Link>
         </div>
         <h1 className={"experienciasmuseos"}>Salidas recreativas en velero</h1>
         <h5 className={"experienciascultura"}>Descubre la cosa catalana en barco de vela.</h5>
-        <article>Disfruta de un hermoso paseo acuático en barco de vela por la increíble costa de Barcelona.
+        <article className={"textodescricion"}>Disfruta de un hermoso paseo acuático en barco de vela por la increíble costa de Barcelona.
             Una escapada veraniega apta incluso para los días más calurosos del año. Descubre los encantadores
             alrededores de la ciudad de Barcelona y visita desde el mar sus más impresionantes playas y calas.
             Comenzaremos la excursión en el Puerto de Barcelona, desde donde partiremos hacia el norte para visitar

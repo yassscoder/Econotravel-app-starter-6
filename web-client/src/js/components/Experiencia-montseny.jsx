@@ -6,6 +6,7 @@ import iconoticket from './assets/icono_ticket.png';
 import iconotiempo from './assets/icono_tiempo.png';
 import iconoedades from './assets/icono_edades.png';
 import {Link} from "react-router-dom";
+import iconoaccesibilidad from "./assets/icono_accesibilidad.png";
 
 
 export const ExperienciaMontseny = () =>
@@ -34,12 +35,16 @@ export const ExperienciaMontseny = () =>
             <img className={"icono_edades"} src={iconoedades} />
             <p className={"textoiconos"}>Todas las edades</p>
             </div>
+            <div className={"apartadoiconos"}>
+                <img className={"icono_accesibilidad"} src={iconoaccesibilidad} />
+                <p className={"textoiconos"}>Bicicletas movilidad adaptada</p>
+            </div>
             <Link className={"btn-reservas2"} to={"/reservas"} >Reserva</Link>
         </div>
         <h1 className={"experienciasmuseos"}>Paseo en bicicleta por el Montseny</h1>
     <h5 className={"experienciascultura"}>Disfruta de un hermoso paseo en bicicleta por el increíble Parque Natural
         del Montseny.</h5>
-        <article>Una escapada veraniega perfecta para parejas, familias y amigos que nos permitirá conocer nuevos y
+        <article className={"textodescricion"}>Una escapada veraniega perfecta para parejas, familias y amigos que nos permitirá conocer nuevos y
             sorprendentes lugares.
             El recorrido que os proponemos comienza con una larga subida con algunos descansos, combinando asfalto y
             pistas anchas, culminando en un mirador con magníficas vistas del Vallés y el mar. Desde aquí continuaremos
