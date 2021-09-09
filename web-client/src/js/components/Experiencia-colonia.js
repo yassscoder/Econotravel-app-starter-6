@@ -25,7 +25,7 @@ export const ExperienciaColonia = () =>
         <div className={"linea-iconos"}>
             <div className={"apartadoiconos"}>
                 <img className={"icono_ticket"} src={iconoticket} />
-                <p className={"textoiconos"}> 50€ / persona</p>
+                <p className={"textoiconos"}> 250€ / persona</p>
             </div>
             <div className={"apartadoiconos"}>
                 <img className={"icono_tiempo"} src={iconotiempo} />

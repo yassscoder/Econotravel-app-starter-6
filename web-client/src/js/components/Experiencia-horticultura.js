@@ -35,11 +35,12 @@ export const ExperienciaHorticultura = () =>
                 <img className={"icono_edades"} src={iconoedades} />
                 <p className={"textoiconos"}>Todas las edades</p>
             </div>
-            <Link className={"btn-reservas2"} to={"/reservas"} >Reserva</Link>
-        </div>
+
         <div className={"apartadoiconos"}>
             <img className={"icono_accesibilidad"} src={iconoaccesibilidad} />
-            <p className={"textoiconos"}>Accesso para silla ruedas</p>
+            <p className={"textoiconos"}>Pasarela silla ruedas</p>
+        </div>
+            <Link className={"btn-reservas2"} to={"/reservas"} >Reserva</Link>
         </div>
         <h1 className={"experienciasmuseos"}>Cultiva y recolecta tus propias verduras</h1>
         <h5 className={"experienciascultura"}>Hunde tus manos en la tierra y come una de las ensaladas más

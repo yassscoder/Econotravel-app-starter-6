@@ -54,7 +54,7 @@ export function Reservas() {
                         <option value=" Experiencia Velero -- 280€ --"> Experiencia Velero -- 280€ --</option>
                         <option value=" Experiencia Horticultura -- 145€ --"> Experiencia Horticultura -- 145€ --
                         </option>
-                        <option value=" Experiencia Colonia Güell -- 50€ --"> Experiencia Colonia Güell -- 50€ --
+                        <option value=" Experiencia Colonia Güell -- 250€ --"> Experiencia Colonia Güell -- 50€ --
                         </option>
                         <option value=" Experiencia Modernismo -- 200€ --"> Experiencia Modernismo -- 200€ --</option>
                     </select>

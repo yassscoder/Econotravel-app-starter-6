@@ -154,7 +154,7 @@ export const Experiencias = () => <section id={"sectionExperiences"} className={
             ubicada en la antigua cooperativa de la Colonia, inaugurada en el año 2008.</div>
         <h6 className={"durationExperience"}><i className="fas fa-stopwatch"></i> 1 hora</h6>
         <div className="card-like-bar">
-            <h3 className={"priceExperience2"}>50€</h3>
+            <h3 className={"priceExperience2"}>250€</h3>
             <div className="like-text">
                 <Link  to={"/Experiencia-colonia"} >
                     <button className={"buttonCard"} type={"button"}>Descubre más</button>
